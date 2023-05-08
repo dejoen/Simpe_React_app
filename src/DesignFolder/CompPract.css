@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Container{
+    overflow: auto;
+    background-color: aqua;
+    height: 100vh;
+    display: grid;
+ grid-template-rows:auto  1fr auto;
+   
+}
+.Nav_Con{
+position: sticky;
+top:0;
+z-index: 3;
+background-color: grey;
+display: grid;
+font-size: large;
+color: aliceblue;
+grid-template-rows:50px 1fr 50px;
+
+}
+.Body{
+    position: relative;
+background-color: aliceblue;
+}
+.search{
+    width: 100px;
+    margin-left: 10px;
+   
+ 
+}
+.myImage{
+ border: solid 1px green;
+    width: 100px;
+    border-radius:30px;
+  
+
+}
+
+.Footer{
+    background-color: black;
+    color:white;
+    display: grid;
+    grid-template-columns:60px 40px 60px 60px;
+    justify-items: start;
+    align-items: center;
+    
+}
+.Icon{
+   position: sticky;
+    background-color: aqua;
+    width: 30px;
+   right: 8px;
+  
+}

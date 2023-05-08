@@ -1,0 +1,38 @@
+
+.HeaderComponent{
+    margin: 0;  
+padding: 0;  
+box-sizing: border-box;
+ display: grid; 
+grid-template-rows: 8vh 1fr 200px; 
+  
+}
+
+#item-1{
+    display:flex;
+    background-color: rgb(17, 16, 17);
+    color: aliceblue;
+    align-items: flex-end;
+    font-weight: 6vh;
+    font-size: larger;
+    
+    
+    
+}
+#item-1:hover{
+  background-color: brown;
+}
+
+ @media (max-width:600px) {
+    #item-1:hover{
+        background-color: green;
+      }
+ } 
+ 
+#item-2{
+    background-color: green;
+}
+#item-3{
+    background-color: cyan;
+}
+
